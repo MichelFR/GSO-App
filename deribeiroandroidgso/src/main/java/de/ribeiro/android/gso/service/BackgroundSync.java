@@ -360,7 +360,7 @@ public class BackgroundSync extends AsyncTask<Boolean, Integer, Boolean> {
             //notification
             _logger.Info("Creating Error Notification for Android SDK: " + android.os.Build.VERSION.SDK_INT);
             NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(ctxt.context.getApplicationContext())
-                    .setSmallIcon(R.drawable.ic_launcher).setContentTitle(name).setContentText(text).setTicker(text).setAutoCancel(true);
+                    .setSmallIcon(R.mipmap.ic_launcher).setContentTitle(name).setContentText(text).setTicker(text).setAutoCancel(true);
             Intent intent = new Intent(ctxt.context, cls);
 
             intent.putExtra("notificationId", notificationId);
