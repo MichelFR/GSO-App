@@ -5,7 +5,7 @@
     android:versionName="1.02" > <!-- aktuelle Play-Store Version android:versionCode="19" -->
     <uses-sdk
         android:minSdkVersion="10"
-        android:targetSdkVersion="19" />
+        android:targetSdkVersion="24" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

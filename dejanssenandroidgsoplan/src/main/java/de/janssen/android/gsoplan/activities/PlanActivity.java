@@ -6,26 +6,6 @@
  */
 package de.janssen.android.gsoplan.activities;
 
-import java.io.File;
-import java.util.Calendar;
-
-import de.janssen.android.gsoplan.dataclasses.ProfilManager;
-
-import java.util.GregorianCalendar;
-
-import com.google.analytics.tracking.android.EasyTracker;
-
-import de.janssen.android.gsoplan.Logger;
-import de.janssen.android.gsoplan.R;
-import de.janssen.android.gsoplan.asyncTasks.PlanActivityLuncher;
-import de.janssen.android.gsoplan.core.FileOPs;
-import de.janssen.android.gsoplan.core.MyContext;
-import de.janssen.android.gsoplan.core.UntisProvider;
-import de.janssen.android.gsoplan.core.Tools;
-import de.janssen.android.gsoplan.dataclasses.Const;
-
-import android.os.Bundle;
-import android.os.Message;
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Activity;
@@ -36,12 +16,28 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.res.Configuration;
+import android.os.Bundle;
+import android.os.Message;
 import android.support.v4.content.LocalBroadcastManager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
 import android.widget.DatePicker;
 import android.widget.Toast;
+
+import java.io.File;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+import de.janssen.android.gsoplan.Logger;
+import de.janssen.android.gsoplan.R;
+import de.janssen.android.gsoplan.asyncTasks.PlanActivityLuncher;
+import de.janssen.android.gsoplan.core.FileOPs;
+import de.janssen.android.gsoplan.core.MyContext;
+import de.janssen.android.gsoplan.core.Tools;
+import de.janssen.android.gsoplan.core.UntisProvider;
+import de.janssen.android.gsoplan.dataclasses.Const;
+import de.janssen.android.gsoplan.dataclasses.ProfilManager;
 
 public class PlanActivity extends Activity {
 
@@ -139,7 +135,6 @@ public class PlanActivity extends Activity {
     public void onStart() {
         super.onStart();
         ctxt.mIsRunning = true;
-        EasyTracker.getInstance(this).activityStart(this);
 
     }
 
@@ -318,7 +313,6 @@ public class PlanActivity extends Activity {
     @Override
     protected void onStop() {
         super.onStop();
-        EasyTracker.getInstance(this).activityStop(this);
     }
 
 

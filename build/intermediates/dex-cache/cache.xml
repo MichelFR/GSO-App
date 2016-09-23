@@ -2,25 +2,130 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Tobias\AndroidstudioProjects\GSOPlan\dejanssenandroidgsoplan\libs\libGoogleAnalyticsServices.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="9f1d8489b6d557be8d7fecf6ae070b5718366677">
-        <dex dex="C:\Users\Tobias\AndroidstudioProjects\GSOPlan\dejanssenandroidgsoplan\build\intermediates\pre-dexed\debug\libGoogleAnalyticsServices-35e958a9563eaaef3a33143f0e55eb3d1046048d.jar" />
+        is-multidex="true"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_30c3c6a98a251a06b6b0796fead9cd83dfe5b65c\classes.dex" />
     </item>
     <item
-        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\Tobias\AndroidstudioProjects\GSOPlan\dejanssenandroidgsoplan\build\intermediates\pre-dexed\debug\support-v4-19.1.0-be220b38eb335326b6406b05fa5b60644c539549.jar" />
+        is-multidex="true"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1c36217d8801eea2e3a0df53fa4dd96660f29409\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Tobias\AndroidstudioProjects\GSOPlan\dejanssenandroidgsoplan\build\intermediates\exploded-aar\GSOPlan\library\unspecified\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b54b444dd4378f9c0cc75002c864b64010fd0568">
-        <dex dex="C:\Users\Tobias\AndroidstudioProjects\GSOPlan\dejanssenandroidgsoplan\build\intermediates\pre-dexed\debug\classes-e747232853c88bafec09b67813fa31e33669ff66.jar" />
+        is-multidex="true"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_50fc0c7f52cf1eddbdfb991caf19e9f75472f1f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_41a57b3c565ac687d8e5e27f21643a85e17216b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b07adc46d6d462c086260efbbfc194037e2d3db2">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_00ab2700c7f9bd9a8887f75b71b6c55e2f1c2b02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\miche\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_4bc88c83739ef877c0e4384448bd6203c1de8dd7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4546ad48249ae49f6ce9fadadda33d5150e7a78c">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3fbd8c70ac4425d6fb1ba7e5f615956c574b7aeb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0019f33b4555b4942fa6727a4fe3dfc7f769684e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_fefb631adf84d48f87ac334f6fe451031ea44113\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8151140bcbdec58fb6cf57c53302ee8eb7964cd2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_3c3ac2821857815f57eff8c2345eb7ff58ab444e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_e4c1d9e969e9c6753c2db4706eed2178963755ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_214c59004c9ded35ff8306b46268a4d5c91f578d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\dejanssenandroidgsoplan\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_6664561555166ff5fa0f3711129ffd3f93f6a34b\classes.dex" />
     </item>
 
 </items>

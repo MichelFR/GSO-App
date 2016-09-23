@@ -360,51 +360,31 @@ public class BackgroundSync extends AsyncTask<Boolean, Integer, Boolean> {
                 notificationId++;
 
             Notification notification;
-            if (android.os.Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN) {
-                // Startet die MainActivity
-                _logger.Info("Creating deprecated Error Notification for Android SDK: " + android.os.Build.VERSION.SDK_INT);
-                notification = new Notification(R.drawable.ic_launcher, text, System.currentTimeMillis());
-                Intent intent = new Intent(ctxt.context, cls);
+            //notification
+            _logger.Info("Creating Error Notification for Android SDK: " + android.os.Build.VERSION.SDK_INT);
+            NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(ctxt.context.getApplicationContext())
+                    .setSmallIcon(R.drawable.ic_launcher).setContentTitle(name).setContentText(text).setTicker(text).setAutoCancel(true);
+            Intent intent = new Intent(ctxt.context, cls);
 
-                intent.putExtra("notificationId", notificationId);
-                intent.putExtra("date", date.getTimeInMillis());
-                intent.putExtra("profilIndex", profilIndex);
-                notification.flags |= Notification.FLAG_AUTO_CANCEL;
+            intent.putExtra("notificationId", notificationId);
+            intent.putExtra("date", date.getTimeInMillis());
+            intent.putExtra("profilIndex", profilIndex);
 
-                SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(ctxt.context);
-                SharedPreferences.Editor editor = prefs.edit();
-                editor.putInt("notificationId", notificationId);
-                editor.apply();
-
-                PendingIntent contentIntent = PendingIntent.getActivity(ctxt.context, notificationId, intent, 0);
-                notification.setLatestEventInfo(ctxt.context, name, text, contentIntent);
-            } else {
-                // f�r android api16 & gr��er
-                _logger.Info("Creating Error Notification for Android SDK: " + android.os.Build.VERSION.SDK_INT);
-                NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(ctxt.context.getApplicationContext())
-                        .setSmallIcon(R.drawable.ic_launcher).setContentTitle(name).setContentText(text).setTicker(text).setAutoCancel(true);
-                Intent intent = new Intent(ctxt.context, cls);
-
-                intent.putExtra("notificationId", notificationId);
-                intent.putExtra("date", date.getTimeInMillis());
-                intent.putExtra("profilIndex", profilIndex);
-
-                SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(ctxt.context);
-                SharedPreferences.Editor editor = prefs.edit();
-                editor.putInt("notificationId", notificationId);
-                editor.apply();
+            SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(ctxt.context);
+            SharedPreferences.Editor editor = prefs.edit();
+            editor.putInt("notificationId", notificationId);
+            editor.apply();
 
 
-                TaskStackBuilder stackBuilder = TaskStackBuilder.create(ctxt.context.getApplicationContext());
+            TaskStackBuilder stackBuilder = TaskStackBuilder.create(ctxt.context.getApplicationContext());
 
-                stackBuilder.addParentStack(cls);
+            stackBuilder.addParentStack(cls);
 
-                stackBuilder.addNextIntent(intent);
-                PendingIntent resultPendingIntent = stackBuilder.getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT);
-                mBuilder.setContentIntent(resultPendingIntent);
+            stackBuilder.addNextIntent(intent);
+            PendingIntent resultPendingIntent = stackBuilder.getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT);
+            mBuilder.setContentIntent(resultPendingIntent);
 
-                notification = mBuilder.getNotification();
-            }
+            notification = mBuilder.getNotification();
 
             if (vibrate && mProfil.vibrate)
                 v.vibrate(new long[]{200, 400}, -1);
@@ -448,23 +428,13 @@ public class BackgroundSync extends AsyncTask<Boolean, Integer, Boolean> {
 
             NotificationManager nm = (NotificationManager) ctxt.context.getApplicationContext().getSystemService(Context.NOTIFICATION_SERVICE);
 
-            if (android.os.Build.VERSION.SDK_INT <= Build.VERSION_CODES.GINGERBREAD_MR1) {
-                _logger.Info("Creating deprecated sync Notification for Android SDK: " + android.os.Build.VERSION.SDK_INT);
-                Notification notification = new Notification(android.R.drawable.stat_notify_sync, Const.NOTIFICATESYNCHEAD
-                        + Const.NOTIFICATESYNCSHORT, System.currentTimeMillis());
+            //Notification
+            _logger.Info("Creating sync Notification for Android SDK: " + android.os.Build.VERSION.SDK_INT);
+            NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(ctxt.context.getApplicationContext())
+                    .setSmallIcon(android.R.drawable.stat_notify_sync).setContentTitle(element)
+                    .setTicker(element + " " + Const.NOTIFICATESYNCSHORT).setContentText(Const.NOTIFICATESYNCSHORT);
 
-                PendingIntent contentIntent = PendingIntent.getActivity(ctxt.context.getApplicationContext(), 0, new Intent(), 0);
-                notification.setLatestEventInfo(ctxt.context.getApplicationContext(), element, Const.NOTIFICATESYNCSHORT, contentIntent);
-
-                nm.notify(1, notification);
-            } else {
-                _logger.Info("Creating sync Notification for Android SDK: " + android.os.Build.VERSION.SDK_INT);
-                NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(ctxt.context.getApplicationContext())
-                        .setSmallIcon(android.R.drawable.stat_notify_sync).setContentTitle(element)
-                        .setTicker(element + " " + Const.NOTIFICATESYNCSHORT).setContentText(Const.NOTIFICATESYNCSHORT);
-
-                nm.notify(1, mBuilder.getNotification());
-            }
+            nm.notify(1, mBuilder.getNotification());
 
         } catch (Exception e) {
             _logger.Error("Cannot create Notification!", e);
@@ -483,23 +453,13 @@ public class BackgroundSync extends AsyncTask<Boolean, Integer, Boolean> {
             NotificationManager nm = (NotificationManager) ctxt.context.getApplicationContext().getSystemService(Context.NOTIFICATION_SERVICE);
             Notification notification;
 
-            if (android.os.Build.VERSION.SDK_INT <= Build.VERSION_CODES.GINGERBREAD_MR1) {
-                _logger.Info("Creating deprecated Error Notification for Android SDK: " + android.os.Build.VERSION.SDK_INT);
-                notification = new Notification(android.R.drawable.stat_notify_error, exception.getMessage(), System.currentTimeMillis());
+            //notification
+            _logger.Info("Creating Error Notification for Android SDK: " + android.os.Build.VERSION.SDK_INT);
+            NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(ctxt.context.getApplicationContext())
+                    .setSmallIcon(android.R.drawable.stat_notify_error).setContentTitle(Const.NOTIFICATESYNCHEAD)
+                    .setContentText(exception.getMessage()).setTicker(exception.getMessage()).setAutoCancel(true);
 
-                PendingIntent contentIntent = PendingIntent.getActivity(ctxt.context.getApplicationContext(), 0, new Intent(), 0);
-                notification
-                        .setLatestEventInfo(ctxt.context.getApplicationContext(), Const.NOTIFICATESYNCHEAD, exception.getMessage(), contentIntent);
-
-                nm.notify(1, notification);
-            } else {
-                _logger.Info("Creating Error Notification for Android SDK: " + android.os.Build.VERSION.SDK_INT);
-                NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(ctxt.context.getApplicationContext())
-                        .setSmallIcon(android.R.drawable.stat_notify_error).setContentTitle(Const.NOTIFICATESYNCHEAD)
-                        .setContentText(exception.getMessage()).setTicker(exception.getMessage()).setAutoCancel(true);
-
-                notification = mBuilder.getNotification();
-            }
+            notification = mBuilder.getNotification();
 
             if (notification != null)
                 nm.notify(999, notification);

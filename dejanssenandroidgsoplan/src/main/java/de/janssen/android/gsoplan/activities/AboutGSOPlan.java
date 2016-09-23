@@ -6,30 +6,22 @@
  */
 package de.janssen.android.gsoplan.activities;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipOutputStream;
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Environment;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
-import com.google.analytics.tracking.android.EasyTracker;
+import java.io.File;
 
 import de.janssen.android.gsoplan.Logger;
 import de.janssen.android.gsoplan.R;
 import de.janssen.android.gsoplan.asyncTasks.ZipFile;
-import de.janssen.android.gsoplan.core.FileOPs;
 import de.janssen.android.gsoplan.dataclasses.Const;
-
-import android.net.Uri;
-import android.os.Bundle;
-import android.os.Environment;
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
 
 public class AboutGSOPlan extends Activity {
     private File root;
@@ -95,14 +87,11 @@ public class AboutGSOPlan extends Activity {
     @Override
     public void onStart() {
         super.onStart();
-
-        EasyTracker.getInstance(this).activityStart(this);
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        EasyTracker.getInstance(this).activityStop(this);
     }
 
 }
