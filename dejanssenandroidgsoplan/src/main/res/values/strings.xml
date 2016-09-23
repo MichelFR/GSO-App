@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GSOPlan</string>
+    <string name="app_version">Version 1.02</string>
+    <string name="app_author">Tobias Janßen</string>
+    <string name="app_version_date">vom 18.08.2015</string>
+    <string name="app_suppressUpdateScreen">true</string>
+
+    <!-- Title -->
+    <string name="title_activity_setup">GSOPlan - Einstellungen</string>
+    <string name="title_activity_plan">GSOPlan</string>
+    <string name="title_activity_about_gsoplan">Über GSOPlan</string>
+    <string name="title_activity_profil">Profile</string>
+    <!-- /Title -->
+
+
+    <!-- Menülabel -->
+    <string name="menu_setup">Einstellungen</string>
+    <string name="menu_gotoDate">Gehe zu Datum</string>
+    <string name="menu_refresh">Jetzt aktualisieren</string>
+    <string name="menu_today">Heute</string>
+    <string name="menu_profiles">Profile</string>
+    <!-- /Menülabel -->
+
+
+    <!-- Meldungen -->
+    <string name="msg_noWlan">Keine Wlan Verbindung!</string>
+    <string name="msg_WIFI">Bitte beachten:\n\nWenn Du Datenübertragungen nur über WLAN zulässt, können außerhalb des WLAN-Bereichs keine Daten mehr im Hintergrund synchronisiert werden!</string>
+    <string name="msg_AutoSync">Bitte beachten:\n\nDas Laden von Hintergrunddaten verringert die Akkulaufzeit und kostet Datenkontingent Deines Mobilfunkanbieters!</string>
+    <string name="msg_newVersionReqSetup">Die Einstellungen wurden bei diesem Update überarbeitet und die bestehenden Daten können nicht übernommen werden.\n</string>
+    <string name="msg_noElement">Es ist noch kein Element festlegt!\nBitte wähle in den Einstellungen Dein Element aus!</string>
+    <string name="msg_newFunktionAvailable">Soll die Hintergrund- Synchronisation eingeschaltet werden?\n(Du kannst dies später in den Einstellungen ändern!)\n\nDamit erhältst Du eine Benachrichtigung, wenn sich etwas an Deinem Stundenplan ändert!\n\n</string>
+    <string name="msg_profilesFirstView">In der Profilansicht kannst Du mehrere Profile verwalten.\n\nZum einen kannst Du damit kompfortabel z.B.: zwischen zwei Klassen umschalten.\nZum anderen kannst Du auswählen, welche Profile im Hintergrund synchronisiert werden sollen, um Dich bei Änderungen am Stundenplan zu informieren.\nHalte einfach lange auf einen Eintrag gedrückt und wähle Bearbeiten.\n\nBedenke jedoch, dass eine steigende Anzahl Profile auch steigenden Daten- und Akku- verbrauch Deines Smartphones mit sich zieht.</string>
+    <string name="msg_StartCounterReached">Du hast GSOPlan schon 10x gestartet.\n\nWenn Dir die App gefällt, dann kannst Du mich jetzt unterstützen, in dem Du im Play-Store eine Bewertung abgibst.\n</string>
+
+    <!-- Fehler-Meldungen -->
+    <string name="setup_message_error_noElements">Es stehen noch keine Daten vom GSO-Server zur Verfügung!\n\nBitte prüfe Deine Internetverbindung und ob die GSO-Stundenplanseite erreichbar ist!</string>
+    <!-- weitere Errors siehe siehe unter CONST -->
+
+	<!-- Profil Section -->
+	<string name="profil_add">Profil hinzufügen</string>
+	<string name="profil_warning_Text">Wenn Du mehr als zwei Profile nutzt, verlangsamt sich die Synchronisation erheblich!</string>
+	<string name="profil_warning_Title">Info!</string>
+	<string name="profil_warning_btn_positive">Hinzufügen</string>
+	<string name="profil_warning_btn_negative">Abbrechen</string>
+	<string name="profil_delete_Title">Profil löschen?</string>
+	<string name="profil_delete_Text">Soll das Profil wirklich gelöscht werden?</string>
+	<string name="profil_delete_btn_positive">Ja</string>
+	<string name="profil_delete_btn_negative">Abbrechen</string>
+	<string name="profil_delete_error_Title">Nicht möglich!</string>
+	<string name="profil_delete_error_Text">Das letzte Profil kann nicht gelöscht werden!</string>
+	<string name="profil_delete_error_btn_positive">OK</string>
+	<string name="profil_context_btn_edit">Bearbeiten</string>
+	<string name="profil_context_btn_del">Löschen</string>
+	<string name="profil_context_title">Optionen</string>
+	
+	
+
+    <!-- Setup Section -->
+
+    <string name="catergory1_title">Stundenplan</string>
+    <string name="catergory2_title">Synchronisierung</string>
+    <string name="catergory3_title">Profil</string>
+    <string name="title_element">Element</string>
+    <string name="summary_element">Legt die Klasse, Lehrer, oder den Raum fest</string>
+    <string name="title_type">Art</string>
+    <string name="summary_type">Legt den Typ des Elementes fest</string>
+    <string name="title_resyncafter">Häufigkeit</string>
+    <string name="summary_resyncafter">Nach angegebener Zeit wird synchronisiert</string>
+    <string name="title_autosync">Hintergrunddaten</string>
+    <string name="summary_autosync">Stundenpläne im Hintergrund immer aktuell halten</string>
+    <string name="title_notify">Benachrichtigung</string>
+    <string name="summary_notify">Benachrichtigen, wenn Änderungen am Stundenplan gefunden wurden</string>
+    <string name="title_vibrate">Vibration</string>
+    <string name="summary_vibrate">Vibrieren bei Benachrichtigung</string>
+    <string name="title_sound">Klingelton</string>
+    <string name="summary_sound">Klingelton bei Benachrichtigung</string>
+    <string name="title_daybegin">Freistunden ausblenden</string>
+    <string name="summary_daybegin">Entfernt Freistunden zu Beginn des Tages</string>
+    <string name="title_wlan">Nur WLAN nutzen</string>
+    <string name="summary_wlan">Datenübertragung nur über WLAN zulassen</string>
+    <string name="title_fastload">Beschleunigtes Laden</string>
+    <string name="summary_fastload">Lädt nur die letzten 8 Wochen in die Darstellung</string>
+    <string name="title_muteevents">Automute</string>
+    <string name="summary_muteevents">Stellt Android während des Unterrichts auf stumm</string>
+    <string name="app_about">Über GSOPlan</string>
+    <string name="app_recent_changes_header">Letzte Änderungen:</string>
+    <string name="app_recent_changes_msg">\n
+        Bugfixes:\n
+                                        kleinere Fixes\n
+</string>
+    <string name="app_didyaknow_header"></string>
+    <string name="app_didyaknow_msg"></string>
+    <string name="app_msg_info"></string>
+    <string name="app_button_weiter">Weiter…</string>
+    <string name="app_rateme">Dir gefällt GSOPlan?\nDann bewerte die App im Play-Store:</string>
+    <string name="app_rateme_button">zum Play-Store…</string>
+    <string name="app_sendlog_button">Log Datei exportieren…</string>
+    <string name="app_sendlog_text">Log-Datei</string>
+    
+    
+    
+
+</resources>

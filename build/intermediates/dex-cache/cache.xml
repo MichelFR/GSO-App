@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Tobias\AndroidstudioProjects\GSOPlan\dejanssenandroidgsoplan\libs\libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9f1d8489b6d557be8d7fecf6ae070b5718366677">
+        <dex dex="C:\Users\Tobias\AndroidstudioProjects\GSOPlan\dejanssenandroidgsoplan\build\intermediates\pre-dexed\debug\libGoogleAnalyticsServices-35e958a9563eaaef3a33143f0e55eb3d1046048d.jar" />
+    </item>
+    <item
+        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Tobias\AndroidstudioProjects\GSOPlan\dejanssenandroidgsoplan\build\intermediates\pre-dexed\debug\support-v4-19.1.0-be220b38eb335326b6406b05fa5b60644c539549.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tobias\AndroidstudioProjects\GSOPlan\dejanssenandroidgsoplan\build\intermediates\exploded-aar\GSOPlan\library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b54b444dd4378f9c0cc75002c864b64010fd0568">
+        <dex dex="C:\Users\Tobias\AndroidstudioProjects\GSOPlan\dejanssenandroidgsoplan\build\intermediates\pre-dexed\debug\classes-e747232853c88bafec09b67813fa31e33669ff66.jar" />
+    </item>
+
+</items>
