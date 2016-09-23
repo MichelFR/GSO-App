@@ -1,14 +1,4 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-	
-    <style name="AppTheme" parent="android:Theme.Light">
-	    <item name="android:textColor">#FFFFFF</item>
-    	<item name="android:typeface">monospace</item>
-    	<item name="android:textSize">20sp</item>
-    	
-		
-  	</style>
-
-    
     <style name="CustomWindowTitleBackground" >
         <item name="android:background">#3A599A</item>       
         <item name="android:singleLine">true</item>
@@ -24,10 +14,9 @@
         <item name="android:shouldDisableView">false</item>
         <item name="android:selectable">false</item>
     </style>
-  
 
-    
-    <style name="Theme.CustomPreferences" parent="@android:Theme.Light" >
+
+    <style name="Theme.CustomPreferences" parent="@android:style/Theme.Material.Light">
         <item name="android:windowTitleStyle">@style/CustomWindowTitleBackground</item>
         <item name="android:preferenceCategoryStyle">@style/PreferenceCategoryCustom</item>
 

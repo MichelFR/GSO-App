@@ -3,7 +3,7 @@
     package="com.viewpagerindicator.test" >
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="21"
         android:targetSdkVersion="24" />
 
     <instrumentation

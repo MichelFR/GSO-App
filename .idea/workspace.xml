@@ -6,231 +6,41 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc466f00-b6a3-43eb-8309-0f3044777590" name="Default" comment="Refactor Names">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/generated/source/buildConfig/androidTest/debug/de/janssen/android/gsoplan/test/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/generated/source/buildConfig/debug/de/janssen/android/gsoplan/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/generated/source/r/debug/de/janssen/android/gsoplan/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/multi/values-sw720dp-land-v13.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/multi/values.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/single/color.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/single/drawable-ldpi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/single/drawable.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/single/layout.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/single/menu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/blame/res/debug/single/xml.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/jars/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/color/vpi__dark_theme.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/color/vpi__light_theme.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-hdpi-v4/vpi__tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-hdpi-v4/vpi__tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-hdpi-v4/vpi__tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-hdpi-v4/vpi__tab_unselected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-hdpi-v4/vpi__tab_unselected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-hdpi-v4/vpi__tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-mdpi-v4/vpi__tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-mdpi-v4/vpi__tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-mdpi-v4/vpi__tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-mdpi-v4/vpi__tab_unselected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-mdpi-v4/vpi__tab_unselected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-mdpi-v4/vpi__tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-xhdpi-v4/vpi__tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-xhdpi-v4/vpi__tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-xhdpi-v4/vpi__tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-xhdpi-v4/vpi__tab_unselected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-xhdpi-v4/vpi__tab_unselected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable-xhdpi-v4/vpi__tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/drawable/vpi__tab_indicator.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/exploded-aar/GSO-App/library/unspecified/res/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/incremental/compileDebugAidl/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/color/vpi__dark_theme.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/color/vpi__light_theme.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_unselected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_unselected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-ldpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_unselected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_unselected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-mdpi-v4/vpi__tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_unselected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_unselected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable/ic_menu_cc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable/ic_menu_preferences.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable/ic_menu_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable/ic_menu_today.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable/ic_menu_week.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable/icon2_96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable/stat_notify.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable/vpi__tab_indicator.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/layout/preference_category.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/menu/activity_plan.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/values-sw720dp-land-v13/values-sw720dp-land-v13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/values-v11/values-v11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/values-v14/values-v14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/resources-debug.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/symbols/debug/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/dejanssenandroidgsoplan-release.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable/cell_shape.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable/ic_menu_day.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable/ic_menu_goto.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/layout/activity_about_gsoplan.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/layout/activity_plan.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/layout/activity_profil.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/layout/daylayout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/layout/rowlayout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/layout/textview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/layout/waiting_page.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/layout/weeklayout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/xml/preferences.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build.gradle" afterPath="$PROJECT_DIR$/deribeiroandroidgso/build.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable/cell_shape.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable/cell_shape.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable/ic_menu_day.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable/ic_menu_day.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/drawable/ic_menu_goto.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable/ic_menu_goto.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/layout/activity_about_gsoplan.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/layout/activity_about_gsoplan.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/layout/activity_main.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/layout/activity_plan.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/layout/activity_plan.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/layout/activity_profil.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/layout/activity_profil.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/layout/daylayout.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/layout/daylayout.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/layout/rowlayout.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/layout/rowlayout.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/layout/textview.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/layout/textview.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/layout/waiting_page.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/layout/waiting_page.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/layout/weeklayout.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/layout/weeklayout.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/build/intermediates/res/merged/debug/xml/preferences.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/xml/preferences.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/dejanssenandroidgsoplan.iml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/deribeiroandroidgso.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/libs/libGoogleAnalyticsServices.jar" afterPath="$PROJECT_DIR$/deribeiroandroidgso/libs/libGoogleAnalyticsServices.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/lint.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/lint.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/AndroidManifest.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/ArrayOperations.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/ArrayOperations.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/Convert.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/Convert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/ICalEvent.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/ICalEvent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/Logger.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/Logger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/WorkerQueue.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/WorkerQueue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/activities/AboutGSOPlan.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/activities/AboutGSOPlan.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/activities/AppPreferences.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/activities/AppPreferences.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/activities/MainActivity.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/activities/MainActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/activities/PlanActivity.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/activities/PlanActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/activities/ProfilActivity.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/activities/ProfilActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/asyncTasks/PlanActivityLuncher.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/asyncTasks/PlanActivityLuncher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/asyncTasks/ZipFile.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/asyncTasks/ZipFile.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/core/FileOPs.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/core/FileOPs.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/core/MyContext.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/core/MyContext.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/core/Profil.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/core/Profil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/core/Stupid.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/core/Stupid.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/core/Tools.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/core/Tools.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/core/Type.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/core/Type.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/core/UntisProvider.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/core/UntisProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/core/WeekData.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/core/WeekData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/Const.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/Const.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/HtmlResponse.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/HtmlResponse.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/Lesson.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/Lesson.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/LinearLayoutBordered.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/LinearLayoutBordered.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/ListEntry.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/ListEntry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/MyListAdapter.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/MyListAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/MyPagerAdapter.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/MyPagerAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/Pager.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/Pager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/Parameter.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/Parameter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/ProfilManager.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/ProfilManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/SelectOptions.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/SelectOptions.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/TimeTableIndex.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/TimeTableIndex.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/TimetableViewObject.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/TimetableViewObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/dataclasses/Types.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/dataclasses/Types.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/listener/OnCheckboxChangeListener.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/listener/OnCheckboxChangeListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/listener/OnElementChangeListener.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/listener/OnElementChangeListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/listener/OnTypeChangeListener.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/listener/OnTypeChangeListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/runnables/ErrorMessage.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/runnables/ErrorMessage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/service/AlarmStarter.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/service/AlarmStarter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/service/AutomuteService.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/service/AutomuteService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/service/BackgroundSync.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/service/BackgroundSync.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/service/HttpSession.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/service/HttpSession.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/service/MuteService.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/service/MuteService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/service/MyService.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/service/MyService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/service/SystemStartService.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/service/SystemStartService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/service/UnMuteService.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/service/UnMuteService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/xml/Ical.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/xml/Ical.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/xml/Xml.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/xml/Xml.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/xml/XmlOPs.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/xml/XmlOPs.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/xml/XmlSearch.java" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/xml/XmlSearch.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable-hdpi/ic_action_search.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable-hdpi/ic_action_search.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable-hdpi/ic_launcher.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable-ldpi/ic_launcher.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable-ldpi/ic_launcher.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable-mdpi/ic_action_search.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable-mdpi/ic_action_search.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable-xhdpi/ic_action_search.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable-xhdpi/ic_action_search.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable/ic_menu_cc.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable/ic_menu_cc.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable/ic_menu_preferences.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable/ic_menu_preferences.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable/ic_menu_refresh.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable/ic_menu_refresh.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable/ic_menu_today.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable/ic_menu_today.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable/ic_menu_week.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable/ic_menu_week.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable/icon2_96.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable/icon2_96.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/drawable/stat_notify.png" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/drawable/stat_notify.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/layout/preference_category.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/layout/preference_category.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/menu/activity_plan.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/menu/activity_plan.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/values-sw600dp/dimens.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values-sw600dp/dimens.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/values-sw720dp-land/dimens.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values-sw720dp-land/dimens.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/values-v11/styles.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values-v11/styles.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/values-v14/styles.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values-v14/styles.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/values/analytics.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values/analytics.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values/dimens.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/values/integers.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values/integers.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values/strings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values/styles.xml" />
+    <list default="true" id="cc466f00-b6a3-43eb-8309-0f3044777590" name="Default" comment="Materialize">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values-v21/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/src/main/res/values-v21/vpi__styles.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values/analytics.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/library/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-debug.aar" afterPath="$PROJECT_DIR$/library/build/outputs/aar/library-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-release.aar" afterPath="$PROJECT_DIR$/library/build/outputs/aar/library-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/import-summary.txt" afterPath="$PROJECT_DIR$/import-summary.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deribeiroandroidgso/build.gradle" afterPath="$PROJECT_DIR$/deribeiroandroidgso/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deribeiroandroidgso/deribeiroandroidgso.iml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/deribeiroandroidgso.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deribeiroandroidgso/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build.gradle" afterPath="$PROJECT_DIR$/library/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/generated/source/r/androidTest/debug/com/viewpagerindicator/R.java" afterPath="$PROJECT_DIR$/library/build/generated/source/r/androidTest/debug/com/viewpagerindicator/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/generated/source/r/androidTest/debug/com/viewpagerindicator/test/R.java" afterPath="$PROJECT_DIR$/library/build/generated/source/r/androidTest/debug/com/viewpagerindicator/test/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/generated/source/r/debug/com/viewpagerindicator/R.java" afterPath="$PROJECT_DIR$/library/build/generated/source/r/debug/com/viewpagerindicator/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/R.txt" afterPath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/bundles/release/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/library.iml" afterPath="$PROJECT_DIR$/library/library.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/library/build/intermediates/manifests/aapt/release/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/symbols/androidTest/debug/R.txt" afterPath="$PROJECT_DIR$/library/build/intermediates/symbols/androidTest/debug/R.txt" />
     </list>
     <ignored path="GSO-App.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -273,23 +83,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BackgroundSync.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BackgroundSync.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/service/BackgroundSync.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="445" column="7" selection-start-line="445" selection-start-column="7" selection-end-line="445" selection-end-column="7" />
+            <state relative-caret-position="140">
+              <caret line="450" column="38" selection-start-line="450" selection-start-column="38" selection-end-line="450" selection-end-column="38" />
               <folding>
-                <marker date="1474651445247" expanded="false" signature="48:1425" ph="..." />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Theme Editor" pinned="false" current-in-tab="false">
+        <entry file="android-dummy://C:/Users/miche/OneDrive/Dokumente/GitHub/GSO-App//Theme Editor">
+          <provider selected="true" editor-type-id="themeEditor">
+            <state theme-name="Theme.PageIndicatorDefaults" module-name="deribeiroandroidgso" proportion="0.67" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deribeiroandroidgso/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="306">
+              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -301,8 +128,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deribeiroandroidgso/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -311,18 +138,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinePageIndicator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/src/main/java/com/viewpagerindicator/LinePageIndicator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="407" column="0" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -372,6 +189,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -3089,7 +2913,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App" value="5898599752381" />
+        <entry key="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App" value="5898601742075" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3529,10 +3353,13 @@
         <option value="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/activities/AboutGSOPlan.java" />
         <option value="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/activities/PlanActivity.java" />
         <option value="$PROJECT_DIR$/dejanssenandroidgsoplan/build.gradle" />
-        <option value="$PROJECT_DIR$/library/build.gradle" />
         <option value="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/java/de/janssen/android/gsoplan/service/BackgroundSync.java" />
         <option value="$PROJECT_DIR$/dejanssenandroidgsoplan/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/service/BackgroundSync.java" />
+        <option value="$PROJECT_DIR$/deribeiroandroidgso/build.gradle" />
+        <option value="$PROJECT_DIR$/library/build.gradle" />
+        <option value="$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/deribeiroandroidgso/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -3583,6 +3410,30 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="GSO-App" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GSO-App" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deribeiroandroidgso" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GSO-App" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deribeiroandroidgso" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3948,11 +3799,19 @@
       <option name="presentableId" value="Default" />
       <updated>1474646685468</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactor Names">
+      <created>1474651531383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1474651531383</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3965,7 +3824,7 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948717" sideWeight="0.495" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948717" sideWeight="0.495" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3991,10 +3850,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Refactor Names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor Names" />
+    <MESSAGE value="Materialize" />
+    <option name="LAST_COMMIT_MESSAGE" value="Materialize" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -4036,30 +3897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deribeiroandroidgso/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/activities/AboutGSOPlan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -4073,25 +3910,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/service/BackgroundSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="450" column="38" selection-start-line="450" selection-start-column="38" selection-end-line="450" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deribeiroandroidgso/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="android-dummy://C:/Users/miche/OneDrive/Dokumente/GitHub/GSO-App//Theme Editor">
+      <provider selected="true" editor-type-id="themeEditor">
+        <state theme-name="Theme.PageIndicatorDefaults" module-name="deribeiroandroidgso" proportion="0.67" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deribeiroandroidgso/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/deribeiroandroidgso/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="306">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-manifest">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deribeiroandroidgso/src/main/java/de/ribeiro/android/gso/service/BackgroundSync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="445" column="7" selection-start-line="445" selection-start-column="7" selection-end-line="445" selection-end-column="7" />
-          <folding>
-            <marker date="1474651445247" expanded="false" signature="48:1425" ph="..." />
-          </folding>
-        </state>
       </provider>
     </entry>
   </component>

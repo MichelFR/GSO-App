@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "de.ribeiro.android.gso"
-        minSdkVersion 10
+        minSdkVersion 21
         targetSdkVersion 24
     }
     useLibrary 'org.apache.http.legacy'
