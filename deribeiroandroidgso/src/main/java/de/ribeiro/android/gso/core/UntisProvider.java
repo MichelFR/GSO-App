@@ -13,10 +13,6 @@ import android.graphics.Point;
 import android.os.Handler;
 import android.os.Messenger;
 
-import org.apache.http.NameValuePair;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -27,6 +23,10 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
 
+import cz.msebera.android.httpclient.NameValuePair;
+import cz.msebera.android.httpclient.client.entity.UrlEncodedFormEntity;
+import cz.msebera.android.httpclient.client.methods.HttpPost;
+import cz.msebera.android.httpclient.message.BasicNameValuePair;
 import de.ribeiro.android.gso.ArrayOperations;
 import de.ribeiro.android.gso.ICalEvent;
 import de.ribeiro.android.gso.Logger;
