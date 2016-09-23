@@ -16,7 +16,7 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
-From de.janssen.android.gsoplan:
+From ribeiro.android.gsoplan:
 * .metadata\
 * .metadata\.lock
 * .metadata\.log
@@ -228,8 +228,8 @@ From de.janssen.android.gsoplan:
 * proguard-project.txt
 * public Package\
 * public Package\Alpha\
-* public Package\Alpha\de.janssen.android.gsoplan.apk
-* public Package\de.janssen.android.gsoplan.apk
+* public Package\Alpha\ribeiro.android.gsoplan.apk
+* public Package\ribeiro.android.gsoplan.apk
 * uml.graphml
 From library:
 * pom.xml
@@ -256,7 +256,7 @@ In library:
 * assets\ => library\src\main\assets\
 * res\ => library\src\main\res\
 * src\ => library\src\main\java\
-In de.janssen.android.gsoplan:
+In ribeiro.android.gsoplan:
 * AndroidManifest.xml => dejanssenandroidgsoplan\src\main\AndroidManifest.xml
 * assets\ => dejanssenandroidgsoplan\src\main\assets\
 * libs\libGoogleAnalyticsServices.jar => dejanssenandroidgsoplan\libs\libGoogleAnalyticsServices.jar

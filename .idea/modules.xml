@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GSO-App.iml" filepath="$PROJECT_DIR$/GSO-App.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dejanssenandroidgsoplan/dejanssenandroidgsoplan.iml" filepath="$PROJECT_DIR$/dejanssenandroidgsoplan/dejanssenandroidgsoplan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deribeiroandroidgso/deribeiroandroidgso.iml" filepath="$PROJECT_DIR$/deribeiroandroidgso/deribeiroandroidgso.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>
   </component>

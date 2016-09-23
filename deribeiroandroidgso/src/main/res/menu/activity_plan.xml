@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<item android:id="@+id/menu_setup"
+	    android:icon="@drawable/ic_menu_preferences"
+        android:orderInCategory="100"
+		android:showAsAction="collapseActionView"
+		android:title="@string/menu_setup" />
+	
+	<item android:id="@+id/menu_profiles"
+	    android:icon="@drawable/ic_menu_cc"
+        android:orderInCategory="100"
+		android:showAsAction="collapseActionView"
+		android:title="@string/menu_profiles" />
+    
+    <item android:id="@+id/menu_gotoDate"
+       	android:icon="@drawable/ic_menu_goto"
+		android:orderInCategory="100"
+		android:showAsAction="collapseActionView"
+		android:title="@string/menu_gotoDate" />
+		
+    <item android:id="@+id/menu_refresh"
+    	android:icon="@drawable/ic_menu_refresh"
+		android:orderInCategory="100"
+		android:showAsAction="collapseActionView"
+		android:title="@string/menu_refresh" />
+ 
+    
+    <item android:id="@+id/menu_today"
+       	android:icon="@drawable/ic_menu_today"
+		android:orderInCategory="100"
+		android:showAsAction="collapseActionView"
+		android:title="@string/menu_today" />
+    
+</menu>
