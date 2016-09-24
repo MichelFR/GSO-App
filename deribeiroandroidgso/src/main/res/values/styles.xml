@@ -1,7 +1,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style name="CustomWindowTitleBackground" parent="Theme.Material.Custom">
-        <item name="android:background">#3A599A</item>
+        <item name="android:background">@color/accent_material_light</item>
         <item name="android:singleLine">true</item>
         <item name="android:textAppearance">@android:style/TextAppearance.WindowTitle</item>
         <item name="android:shadowColor">#BB000000</item>
@@ -11,9 +11,6 @@
 
     <style name="PreferenceCategoryCustom" parent="Theme.Material.Custom">
         <item name="android:layout">@layout/preference_category</item>
-        <!-- The title should not dim if the category is disabled, instead only the preference children should dim. -->
-        <item name="android:shouldDisableView">false</item>
-        <item name="android:selectable">false</item>
     </style>
 
 
@@ -27,6 +24,7 @@
         <item name="android:colorPrimary">@color/primary_material_light</item>
         <item name="android:colorPrimaryDark">@color/primary_dark_material_light</item>
         <item name="android:navigationBarColor">?android:attr/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/accent_material_light</item>
     </style>
 
 

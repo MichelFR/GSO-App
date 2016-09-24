@@ -19,6 +19,30 @@
         </ListPreference>
     </PreferenceCategory>
 
+    <PreferenceCategory android:title="@string/catergory3_title">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="boxHide"
+            android:summary="@string/summary_daybegin"
+            android:title="@string/title_daybegin"></CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="boxWlan"
+            android:summary="@string/summary_wlan"
+            android:title="@string/title_wlan"></CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="boxFastLoad"
+            android:summary="@string/summary_fastload"
+            android:title="@string/title_fastload"></CheckBoxPreference>
+        <!--         <CheckBoxPreference -->
+        <!--             android:defaultValue="true" -->
+        <!--             android:key="boxMuteEvents" -->
+        <!--             android:summary="@string/summary_muteevents" -->
+        <!--             android:title="@string/title_muteevents" > -->
+        <!--         </CheckBoxPreference> -->
+
+    </PreferenceCategory>
     <PreferenceCategory android:title="@string/catergory2_title" >
         <CheckBoxPreference
             android:defaultValue="false"
@@ -51,39 +75,5 @@
             android:title="@string/title_sound" >
         </CheckBoxPreference>
      </PreferenceCategory>
-     
-     <PreferenceCategory android:title="@string/catergory3_title" >
-        <CheckBoxPreference
-            android:defaultValue="false"
-            android:key="boxHide"
-            android:summary="@string/summary_daybegin"
-            android:title="@string/title_daybegin" >
-        </CheckBoxPreference>
-        <CheckBoxPreference
-            android:defaultValue="false"
-            android:key="boxWlan"
-            android:summary="@string/summary_wlan"
-            android:title="@string/title_wlan" >
-        </CheckBoxPreference>
-        <CheckBoxPreference
-            android:defaultValue="true"
-            android:key="boxFastLoad"
-            android:summary="@string/summary_fastload"
-            android:title="@string/title_fastload" >
-        </CheckBoxPreference>
-<!--         <CheckBoxPreference -->
-<!--             android:defaultValue="true" -->
-<!--             android:key="boxMuteEvents" -->
-<!--             android:summary="@string/summary_muteevents" -->
-<!--             android:title="@string/title_muteevents" > -->
-<!--         </CheckBoxPreference> -->
-
-        <Preference android:title="@string/app_about" >
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:targetClass="de.janssen.android.gsoplan.activities.AboutGSOPlan"
-                android:targetPackage="de.janssen.android.gsoplan" />
-        </Preference>
-    </PreferenceCategory>
 
 </PreferenceScreen>

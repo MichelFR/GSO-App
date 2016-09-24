@@ -17,7 +17,7 @@
 
     <!-- Menülabel -->
     <string name="menu_setup">Einstellungen</string>
-    <string name="menu_gotoDate">Gehe zu Datum</string>
+    <string name="menu_gotoDate">Kalender</string>
     <string name="menu_refresh">Aktualisieren</string>
     <string name="menu_today">Heute</string>
     <string name="menu_profiles">Profile</string>

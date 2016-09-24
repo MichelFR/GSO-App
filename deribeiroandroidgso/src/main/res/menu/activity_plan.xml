@@ -11,24 +11,24 @@
         android:orderInCategory="100"
 		android:showAsAction="collapseActionView"
 		android:title="@string/menu_profiles" />
-    
-    <item android:id="@+id/menu_gotoDate"
-       	android:icon="@drawable/ic_menu_goto"
+
+	<item
+		android:id="@+id/menu_gotoDate"
+		android:icon="@drawable/ic_menu_goto"
 		android:orderInCategory="100"
-		android:showAsAction="collapseActionView"
 		android:title="@string/menu_gotoDate" />
-		
-    <item android:id="@+id/menu_refresh"
-    	android:icon="@drawable/ic_menu_refresh"
+
+
+	<item
+		android:id="@+id/menu_refresh"
+		android:icon="@drawable/ic_reload_info"
 		android:orderInCategory="100"
-		android:showAsAction="collapseActionView"
+		android:showAsAction="ifRoom"
 		android:title="@string/menu_refresh" />
- 
-    
-    <item android:id="@+id/menu_today"
-       	android:icon="@drawable/ic_menu_today"
+	<item
+		android:id="@+id/menu_today"
+		android:icon="@drawable/ic_goto_today"
 		android:orderInCategory="100"
-		android:showAsAction="collapseActionView"
 		android:title="@string/menu_today" />
-    
+
 </menu>
