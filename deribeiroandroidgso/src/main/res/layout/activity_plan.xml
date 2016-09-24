@@ -10,8 +10,15 @@
         android:id="@+id/indicator"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textColor="#999999"
-        app:selectedColor="#3A599A" />
+        android:background="@color/default_circle_indicator_fill_color"
+        android:backgroundTintMode="screen"
+        android:fadeScrollbars="true"
+        android:fadingEdge="horizontal"
+        android:fitsSystemWindows="true"
+        android:isScrollContainer="true"
+        android:textColor="@color/primary_material_light"
+        app:footerColor="@color/foreground_material_light"
+        app:selectedColor="@color/primary_dark_material_light" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"

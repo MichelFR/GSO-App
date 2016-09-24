@@ -4,6 +4,7 @@
 	    android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_centerInParent="true" >
+
 		<TextView
 		    android:id="@+id/label"
 		    android:layout_width="fill_parent"
@@ -13,11 +14,12 @@
 		    android:gravity="right|center_vertical"
 		    android:minHeight="25dip"
 		    android:padding="1dip"
-		    android:paddingLeft="6dip" 
+			android:paddingLeft="6dip"
 		    android:textSize="12dip"
 		    />
-		
-		<TextView
+
+
+	<TextView
 		    android:id="@+id/text"
 		    android:layout_width="fill_parent"
 		    android:layout_height="wrap_content"
