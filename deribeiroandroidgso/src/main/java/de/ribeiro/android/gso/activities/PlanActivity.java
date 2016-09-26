@@ -155,12 +155,8 @@ public class PlanActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // Android Version prfen, wenn neuer als API11,
-        Boolean actionBarAvailable = false;
-        if (android.os.Build.VERSION.SDK_INT >= 11) {
-            // ActionBar anfragen
-            actionBarAvailable = getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
-        }
+        Boolean actionBarAvailable;
+        actionBarAvailable = getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
         _logger = new Logger(this, "PlanActivity");
         setContentView(R.layout.activity_plan);
         this.ctxt = new MyContext(this, this);
@@ -217,13 +213,9 @@ public class PlanActivity extends Activity {
 
             ctxt.newVersionReqSetup = extras.getBoolean("newVersionInfo", false);
         }
-        // Wenn ActionBar verfgbar ist,
-        if (actionBarAvailable) {
-            // ActionBar hinzufgen
             ActionBar actionBar = getActionBar();
             if (ctxt.mIsRunning)
                 actionBar.show();
-        }
 
 
         ctxt.executor.post(new PlanActivityLuncher(PlanActivity.this));
