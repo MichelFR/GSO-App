@@ -21,8 +21,10 @@ import android.os.Message;
 import android.support.v4.content.LocalBroadcastManager;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
 import android.widget.DatePicker;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import java.io.File;
@@ -155,6 +157,7 @@ public class PlanActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ImageButton FAB;
         // Android Version prfen, wenn neuer als API11,
         Boolean actionBarAvailable = false;
         if (android.os.Build.VERSION.SDK_INT >= 11) {
@@ -227,6 +230,15 @@ public class PlanActivity extends Activity {
 
 
         ctxt.executor.post(new PlanActivityLuncher(PlanActivity.this));
+
+        FAB = (ImageButton) findViewById(R.id.imageButton);
+        FAB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ctxt.getCurStupid().currentDate = new GregorianCalendar();
+                ctxt.pager.setPage(ctxt.getCurStupid().currentDate);
+            }
+        });
     }
 
     @Override
