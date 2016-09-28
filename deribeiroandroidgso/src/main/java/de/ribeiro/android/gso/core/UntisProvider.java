@@ -356,7 +356,7 @@ public class UntisProvider {
             throw e;
         }
 
-        // prfen, ob bereits die Woche fr die Klasse und den typ vorliegt:
+        // prüfen, ob bereits die Woche fr die Klasse und den typ vorliegt:
 
         WeekData existWeekData = null;
         // alle bestehden Wochen abrufen:
