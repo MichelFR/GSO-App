@@ -220,13 +220,10 @@ public class PlanActivity extends Activity {
 
             ctxt.newVersionReqSetup = extras.getBoolean("newVersionInfo", false);
         }
-        // Wenn ActionBar verfgbar ist,
-        if (actionBarAvailable) {
-            // ActionBar hinzufgen
-            ActionBar actionBar = getActionBar();
+
+        ActionBar actionBar = getActionBar();
             if (ctxt.mIsRunning)
                 actionBar.show();
-        }
 
 
         ctxt.executor.post(new PlanActivityLuncher(PlanActivity.this));

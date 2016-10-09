@@ -155,8 +155,6 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onStop() {
-        _logger.Info("Exiting Application");
-        _logger.Info("-----------------------------------------------------");
         ctxt.mIsRunning = false;
         super.onStop();
     }
