@@ -22,6 +22,8 @@ import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.View;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 import java.io.File;
 
 import de.ribeiro.android.gso.Logger;
@@ -37,8 +39,8 @@ public class MainActivity extends Activity {
 
     public MyContext ctxt;
     private Bundle extras;
-    private long startCounter = 0;
     private Logger _logger;
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     public static boolean deleteDir(File dir) {
         if (dir != null && dir.isDirectory()) {
@@ -76,6 +78,9 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // Obtain the FirebaseAnalytics instance.
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
         super.onCreate(savedInstanceState);
         Const.APPFOLDER = this.getFilesDir();
         _logger = new Logger(this, "MainActivity");
@@ -83,6 +88,7 @@ public class MainActivity extends Activity {
         _logger.Info("Starting Application");
         ctxt.mIsRunning = true;
         SharedPreferences prefs;
+        long startCounter = 0;
         try {
             prefs = PreferenceManager.getDefaultSharedPreferences(ctxt.context);
             startCounter = prefs.getLong("startCounter", 0);

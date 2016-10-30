@@ -75,10 +75,5 @@
 		    android:onClick="continueAppStart"
 		    android:text="@string/app_button_weiter"
 		    android:textSize="15sp" />
-
 </LinearLayout>
-    
-    
-    
 </ScrollView>
-

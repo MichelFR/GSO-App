@@ -12,111 +12,183 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-24.2.1_162fb5b6697ceadbb240fc16558440abbe081cc7.jar" />
+        revision="25.0.0"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-9.8.0_22efe6335c50184ba2d4219c2d41ab690c0055c0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.8.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\internal_impl-24.2.1_a20826cbbf220c3d34a9d505cb10c97b1175c3bf.jar" />
+        revision="25.0.0"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.google.firebase-firebase-analytics-9.8.0_fcc5d92a4d758b2bd2ad91415fa131a954e05f2d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\internal_impl-24.2.1_1b76abb827388f75bae18ef545bdcf80d761a062.jar" />
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-25.0.0_57d7080353f0fc6ed2a3c7afecb223b27573353f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\internal_impl-24.2.1_35f3817f981feff56306744848005f2fe597de17.jar" />
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\internal_impl-25.0.0_b593aaa1e13d1637a1881d45bbb2d2282f45308c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\internal_impl-24.2.1_0fc22ab78da88dc756fa93cd8c246da21e0c7ff6.jar" />
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\internal_impl-25.0.0_c68f9f92095eb8d3a89d98fe96232804afe142dd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-24.2.1_36cd77d4cf703afd2a4bcabc94d024948f2c1b76.jar" />
+        revision="25.0.0"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-tasks-9.8.0_3d7d1cd4fa391c5228cb70eaf7bd8287ec18a208.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.8.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.android.support-support-fragment-24.2.1_f06f3cc4be924514d6523ace27c3447631e6accc.jar" />
+        revision="25.0.0"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.google.firebase-firebase-analytics-impl-9.8.0_a1fed357231a1e0c6d3d1580970e30c7d619492a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-24.2.1_d765ada3d458b0b70459f133872de9de420309e0.jar" />
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.android.support-support-fragment-25.0.0_106c2383d2eccf97ba6ca5acd567d7479b98aa8a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\miche\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\support-annotations-24.2.1_4bc88c83739ef877c0e4384448bd6203c1de8dd7.jar" />
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.android.support-support-compat-25.0.0_35b7890d218a8d3ea79e6b2510987e29870be0fc.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.android.support-support-compat-24.2.1_b65ff7c6189d5aa9783455fa84d05cdd189e621b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\internal_impl-24.2.1_95dbc9f919a3dcad4786e29355e0cd36ed838687.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
+        revision="25.0.0"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.android.support-support-v4-24.2.1_7ed086db7a82fbcf6111b058ab000f81ecea3064.jar" />
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.android.support-support-v4-25.0.0_7ac14b58c93374317ea7a96fac4a510587ba89e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-25.0.0_1d1513a232aa1025c67c9274695cb6b8f444920a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\miche\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\support-annotations-25.0.0_0416ddd43f04fd9d7811fa0d214fe96829bd1e45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\internal_impl-25.0.0_7f72c42661cdbe755a43cec99170094975266571.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\internal_impl-25.0.0_1a85cab6ec99d705507f450ffcbdd34cad72066f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.google.firebase-firebase-iid-9.8.0_6f20da7f5463a523b4f26b2c0736ed1417f5fbb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\GSO-App\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05269d17fdf13e04689571ac1ab7582ab25a744d">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\GSO-App-library-unspecified_cffc6f3200f5de82334bc5045eef76658b26121d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-25.0.0_81cf4b2b8829b1a7dc9c7f9e85d21d7c32a5c6df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.google.firebase-firebase-common-9.8.0_b95799bbdc458e5c78da5a9a6091c0eb2469f032.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\com.google.firebase-firebase-messaging-9.8.0_e6a1c8792cfe999b5e546b8fc729d27a949b04ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\miche\OneDrive\Dokumente\GitHub\GSO-App\deribeiroandroidgso\build\intermediates\pre-dexed\release\internal_impl-25.0.0_1eb868576935a60adb51f040814d99a20871c5f5.jar" />
     </item>
 
 </items>
