@@ -21,7 +21,6 @@ import android.os.Message;
 import android.support.v4.content.LocalBroadcastManager;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.Window;
 import android.widget.DatePicker;
 import android.widget.ImageButton;
@@ -228,14 +227,14 @@ public class PlanActivity extends Activity {
 
         ctxt.executor.post(new PlanActivityLuncher(PlanActivity.this));
 
-        FAB = (ImageButton) findViewById(R.id.imageButton);
-        FAB.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ctxt.getCurStupid().currentDate = new GregorianCalendar();
-                ctxt.pager.setPage(ctxt.getCurStupid().currentDate);
-            }
-        });
+//        FAB = (ImageButton) findViewById(R.id.imageButton);
+//        FAB.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                ctxt.getCurStupid().currentDate = new GregorianCalendar();
+//                ctxt.pager.setPage(ctxt.getCurStupid().currentDate);
+//            }
+//        });
     }
 
     @Override
@@ -281,10 +280,6 @@ public class PlanActivity extends Activity {
             return true;
         } else if (itemId == R.id.menu_refresh) {
             UntisProvider.contactStupidService(this, ctxt.msgHandler);
-            return true;
-        } else if (itemId == R.id.menu_today) {
-            ctxt.getCurStupid().currentDate = new GregorianCalendar();
-            ctxt.pager.setPage(ctxt.getCurStupid().currentDate);
             return true;
         } else if (itemId == R.id.menu_profiles) {
             //ProfilActivity starten
